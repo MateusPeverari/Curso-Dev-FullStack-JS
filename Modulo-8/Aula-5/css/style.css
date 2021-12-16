@@ -1,0 +1,17 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 500ms;
+}
+
+.box:hover {
+  width: 500px;
+  background-color: red;
+}

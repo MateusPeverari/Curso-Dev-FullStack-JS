@@ -1,0 +1,15 @@
+body {
+  margin: 100px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.box:hover {
+  width: 500px;
+  background-color: red;
+  transform: rotate(360deg);
+}
